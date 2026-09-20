@@ -18,3 +18,6 @@ Manual testing project for SauceDemo e-commerce application.
 ## Tools
 - Excel
 - Git & GitHub
+
+##Bug Reproduction Videos
+- https://drive.google.com/drive/folders/1IEMelNQf89INmH1QTfmADKnMjrGfukjJ?usp=sharing

@@ -1,0 +1,48 @@
+﻿,,,,,,,,,,,,,
+Test Scenario,Test ID,Test Title,Description,Pre-conditions,Test Steps,Test Data,Expected Result,Actual Result,Status,Test Type,,,
+User Login,UL001,Login,Verify user is redirected to the Products page when user enters correct Username & correct password,"1- Connected Wifi
+2- Chrome browser is ready and opened
+3- URL ""https://www.saucedemo.com/"" is navigated",user enters correct credentials,"1-Username
+""standard_user""
+2-Password
+""secret_sauce""",The user is redirected to the Products page.,The user is redirected to the Products page.,pass,Functional,,,
+,UL002,Login,Verify error msg when user enters correct Username & empty password,"1- Connected Wifi
+2- Chrome browser is ready and opened
+3- URL ""https://www.saucedemo.com/"" is navigated",user enters incorrect credentials,"1-Username
+""standard_user""
+2-Password
+"" """,Error MSG appears,Error MSG appeared,pass,Functional,,,
+,UL003,Login,Verify error msg when user enters empty Username & correct password,"1- Connected Wifi
+2- Chrome browser is ready and opened
+3- URL ""https://www.saucedemo.com/"" is navigated",user enters incorrect credentials,"1-Username
+"" ""
+2-Password
+""secret_sauce""",Error MSG appears,Error MSG appeared,pass,Functional,,,
+,UL004,Login,Verify error msg when user enters correct Username & incorrect password,"1- Connected Wifi
+2- Chrome browser is ready and opened
+3- URL ""https://www.saucedemo.com/"" is navigated",user enters incorrect credentials,"1-Username
+""standard_user""
+2-Password
+""m1234567""",Error MSG appears,Error MSG appeared,pass,Functional,,,
+,UL005,Login,Verify error msg when user enters incorrect Username & correct password,"1- Connected Wifi
+2- Chrome browser is ready and opened
+3- URL ""https://www.saucedemo.com/"" is navigated",user enters incorrect credentials,"1-Username
+""admin_user""
+2-Password
+""secret_sauce""",Error MSG appears,Error MSG appeared,pass,Functional,,,
+,UL006,Login,Verify error msg when user enters empty Data,"1- Connected Wifi
+2- Chrome browser is ready and opened
+3- URL ""https://www.saucedemo.com/"" is navigated",user enters incorrect credentials,"1-Username
+""""
+2-Password
+""""",Error MSG appears,Error MSG appeared,Pass,Functional,,,
+,UL007,Login,Verify user is redirected to the home page when user enters correct Username & correct password,"1- Connected Wifi
+2- Chrome browser is ready and opened
+3- URL ""https://www.saucedemo.com/"" is navigated
+4- User logged in as ""performance_glitch_user""",user enters correct credentials,"1-Username
+""performance_glitch_user""
+2-Password
+""secret_sauce""",The user is redirected to the Products page.,The Products page loaded after approximately 5 seconds,Fail,Non-Functional,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
